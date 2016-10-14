@@ -27,6 +27,7 @@ public class Student extends Person {
 		
 	}
 
+
 	//Getters and setters
 	public double getFirstGrade() {
 		return firstGrade;
