@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="895" started-at="2016-10-14T19:51:07Z" finished-at="2016-10-14T19:51:08Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="895" started-at="2016-10-14T19:51:07Z" finished-at="2016-10-14T19:51:08Z">
+      <class name="PersonTest">
+        <test-method status="PASS" signature="testAge()[pri:0, instance:testAge(PersonTest)]" name="testAge" duration-ms="1" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAge -->
+        <test-method status="PASS" signature="testLastName()[pri:0, instance:testLastName(PersonTest)]" name="testLastName" duration-ms="1" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastName -->
+        <test-method status="PASS" signature="testFirstName()[pri:0, instance:testFirstName(PersonTest)]" name="testFirstName" duration-ms="2" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstName -->
+        <test-method status="PASS" signature="testGender()[pri:0, instance:testGender(PersonTest)]" name="testGender" duration-ms="3" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGender -->
+      </class> <!-- PersonTest -->
+      <class name="StudentTest">
+        <test-method status="PASS" signature="testThirdGrade()[pri:0, instance:testThirdGrade(StudentTest)]" name="testThirdGrade" duration-ms="51" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThirdGrade -->
+        <test-method status="PASS" signature="testToString()[pri:0, instance:testToString(StudentTest)]" name="testToString" duration-ms="13" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method status="PASS" signature="testFirstGrade()[pri:0, instance:testFirstGrade(StudentTest)]" name="testFirstGrade" duration-ms="11" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstGrade -->
+        <test-method status="PASS" signature="testCalculateAverageGradeEmpty()[pri:0, instance:testCalculateAverageGradeEmpty(StudentTest)]" name="testCalculateAverageGradeEmpty" duration-ms="16" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAverageGradeEmpty -->
+        <test-method status="PASS" signature="testCalculateAverageGradeFirst()[pri:0, instance:testCalculateAverageGradeFirst(StudentTest)]" name="testCalculateAverageGradeFirst" duration-ms="26" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAverageGradeFirst -->
+        <test-method status="PASS" signature="testSecondGrade()[pri:0, instance:testSecondGrade(StudentTest)]" name="testSecondGrade" duration-ms="3" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondGrade -->
+        <test-method status="PASS" signature="testCalculateAverageGradeAll()[pri:0, instance:testCalculateAverageGradeAll(StudentTest)]" name="testCalculateAverageGradeAll" duration-ms="4" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAverageGradeAll -->
+      </class> <!-- StudentTest -->
+      <class name="ClassroomTest">
+        <test-method status="PASS" signature="testClassroomName()[pri:0, instance:testClassroomName(ClassroomTest)]" name="testClassroomName" duration-ms="4" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassroomName -->
+        <test-method status="PASS" signature="testClassroomTerm()[pri:0, instance:testClassroomTerm(ClassroomTest)]" name="testClassroomTerm" duration-ms="5" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassroomTerm -->
+        <test-method status="PASS" signature="testRemoveAStudent()[pri:0, instance:testRemoveAStudent(ClassroomTest)]" name="testRemoveAStudent" duration-ms="49" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveAStudent -->
+        <test-method status="PASS" signature="testPrintFullRelatory()[pri:0, instance:testPrintFullRelatory(ClassroomTest)]" name="testPrintFullRelatory" duration-ms="4" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintFullRelatory -->
+        <test-method status="PASS" signature="testSetGetStudents()[pri:0, instance:testSetGetStudents(ClassroomTest)]" name="testSetGetStudents" duration-ms="8" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetGetStudents -->
+        <test-method status="PASS" signature="testAddANewStudent()[pri:0, instance:testAddANewStudent(ClassroomTest)]" name="testAddANewStudent" duration-ms="5" started-at="2016-10-14T21:51:08Z" finished-at="2016-10-14T21:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddANewStudent -->
+      </class> <!-- ClassroomTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

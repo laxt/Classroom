@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Classroom</a> &gt; <a href="index.source.html" class="el_package">main</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package main;
+
+import java.util.ArrayList;
+
+import otherclasses.Classroom;
+import otherclasses.Student;
+
+<span class="nc" id="L8">public class Main {	</span>
+	public static void main(String[] args) {
+<span class="nc" id="L10">		ArrayList&lt;Student&gt; students = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L11">		Classroom classroom = new Classroom(&quot;TEST15&quot;, &quot;Spring 16&quot;, students);</span>
+<span class="nc" id="L12">		Student student1 = new Student(&quot;Rafael&quot;, &quot;Silva&quot;, 20, 'M', 3.1, 5.4, 6.2);</span>
+<span class="nc" id="L13">		Student student2 = new Student(&quot;Fredrik&quot;, &quot;Mellgren&quot;, 20, 'M', 8.0, 8.8, 6.1);</span>
+<span class="nc" id="L14">		Student student3 = new Student(&quot;Hans&quot;, &quot;Ekstr�m&quot;, 20, 'M', 8.8, 5.0, 6.0);</span>
+<span class="nc" id="L15">		Student student4 = new Student(&quot;Patrik&quot;, &quot;Hollsten&quot;, 20, 'F', 8.2, 7.3, 6.0);</span>
+<span class="nc" id="L16">		Student student5 = new Student(&quot;Gopi&quot;, &quot;Sundarraj&quot;, 20, 'M', 8.2, 9.0, 6.0);</span>
+
+<span class="nc" id="L18">		classroom.addANewStudent(student1);</span>
+<span class="nc" id="L19">		classroom.addANewStudent(student2);</span>
+<span class="nc" id="L20">		classroom.addANewStudent(student3);</span>
+<span class="nc" id="L21">		classroom.addANewStudent(student4);</span>
+<span class="nc" id="L22">		classroom.addANewStudent(student5);</span>
+<span class="nc" id="L23">		System.out.println(&quot;################ STUDENT LIST ###############&quot;);</span>
+<span class="nc" id="L24">		classroom.printFullRelatory();</span>
+		
+<span class="nc" id="L26">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
